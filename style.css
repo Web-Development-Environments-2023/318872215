@@ -1,7 +1,110 @@
 #menu
 {
+	list-style-type: none;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 85px;
+	background: rgb(238, 211, 136);
 }
+li
+{
+
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 20px;
+
+	background-color: #cdb495;
+	border-radius: 10px;
+
+} 
+
+#menu #logo{
+	float: left;
+	mix-blend-mode: multiply;
+
+}
+#menu li a{
+	float: right;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+}
+li a:hover {
+	float: right;
+
+	background-color: rgb(219, 224, 181);
+  }
+
+h1{
+	color: rgb(164, 26, 26);
+
+	text-align: center;
+	font-size: 45px;
+	
+}
+h2{
+	color: rgb(42, 22, 22);
+
+	text-align: center;
+	font-size: 25px;
+	
+}
+h3{
+	color: rgb(42, 22, 22);
+	text-align: center;
+
+	font-size: 25px;
+	
+}
+.photo{
+	align-items: center;
+	/* border: 20px solid rgb(40, 47, 75); */
+}
+.myPlaylists{
+	width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+	text-align: center;
+
+}
+.like-class{
+	text-align: center;
+}
+.QR-class{
+	text-align: center;
+}
+
+#contact .contact2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 25px;
+	border-radius: 20px;
+	background-color: #fbfbf6;
+}
+form{
+	padding: 10px;
+	width: 90%;
+	max-width: 600px;
+}
+.contact2 input[type="submit"] {
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #4c60af;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+
+  }
+body{
+	background-color: rgb(237, 230, 216);
+}
+
