@@ -62,6 +62,11 @@ h3{
 	align-items: center;
 	/* border: 20px solid rgb(40, 47, 75); */
 }
+
+.photo :hover {
+    transform: scale(1.25);
+	box-shadow: 0 0 20px 20px rgba(226, 152, 43, 0.5);
+}
 .myPlaylists{
 	width: 560px; /* you have to have a size or this method doesn't work */
     height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
@@ -74,6 +79,9 @@ h3{
 }
 .QR-class{
 	text-align: center;
+}
+.QR-class :hover {
+    transform: scale(1.25);
 }
 
 #contact .contact2{

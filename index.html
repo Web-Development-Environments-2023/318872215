@@ -57,8 +57,10 @@ The adult Sheldon is a senior theoretical physicist at The California Institute 
   <br/>
   <br/>
 <h1>my photos</h1>
-  <div class="photo">
-    <center>
+<br/>
+<br/>
+<center>
+    <div class="photo">
       <img src="https://topicimages.mrowl.com/large/sumanthchandu/the_big_bang_theory/cast/sheldon_cooper/sheldon_lee_cooper_1.jpg" alt="logo" height="200"/>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2Oboh8oJoqTuQbccuOEnsX_25OLujOyvOw&usqp=CAU" alt="logo" height="200"/>
       <img src="https://cdn3.whatculture.com/images/2021/08/82cfdbf5e866cd01-600x338.jpg" alt="logo" height="200"/>
@@ -70,9 +72,10 @@ The adult Sheldon is a senior theoretical physicist at The California Institute 
       <img src="https://media.glamour.com/photos/5cddbf8953c5e780a34a6545/master/w_2560%2Cc_limit/115005_0052b.jpg" alt="logo" height="200"/>
       <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-big-bang-theory-cast-1574152305.jpg?crop=0.888xw:0.780xh;0.00111xw,0.0586xh&resize=1200:*" alt="logo" height="200"/>
       <img src="https://media.newyorker.com/photos/5cdddcfc65b32ee9a5d9949b/2:1/w_2560,h_1280,c_limit/Jaromi-BigBangTheory.jpg" alt="logo" width="300" height="200"/>  
-    </center>
-      </div>
+    </div>
+</center>
 
+<br/>
 <br/>
 <br/>
 <br/>
@@ -125,6 +128,8 @@ The adult Sheldon is a senior theoretical physicist at The California Institute 
 <br/>
 <br/>
 <h1>scan my code</h1>
+<br/>
+
 <div class="QR-class">
 <img id="imgQR" src="qr.png" alt="">
 </div>
@@ -247,55 +252,63 @@ web 3 - We will write all the information we want to know about physics, and the
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>contact me</h1>
-<h3>I don't really want you to talk to me, but if you must leave me a message here</h3> 
-
-<div class="contact2">
-  <form action="mailto:oranbe@post.bgu.ac.il" method="post" enctype="text/plain">
-    <div class="form-object">
-      <label for="fname">First Name</label><br/>
-      <input type="text" id="fname" name="firstname" placeholder="Your name.." style="max-width: 400px; width: 150%;"><br/>
-    </div>
-    <div class="form-object">
-      <label for="lname">Last Name</label><br/>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="max-width: 400px; width: 150%;"><br/>
-    </div>
-    <div class="form-object">
-      <label for="lname">Email</label><br/>
-      <input type="email" id="email" placeholder="Your email.." style="max-width: 400px; width: 150%;"><br/>
-    </div>
-    <div class="form-object">
-      <label for="subject">Subject</label><br/>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; max-width: 400px; width: 150%;" ></textarea><br/>
-    </div>
-    <div class="form-object">
-     <label for="subject">Message</label><br/>
-     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; max-width: 400px; width: 150%;"></textarea><br/>
-    </div>
-    <div class="form-object">
-      <label for="Emoji">Choose Emoji yuu want to add:</label>
-      <select id="Emoji" name="Emoji">
-        <option value="😄">😄</option>
-        <option value="😇">😇</option>
-        <option value="🥰">🥰</option>
-        <option value="🤩">🤩</option>
-        <option value="😭">😭</option>
-        <option value="➕">➕</option>
-      </select>
-    </div>
-    <input type="submit" value="Send email">
-  </form>
-
-</div>
-<br/>
-<br/>
-<br/>
-</section>
-
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <h1>contact me</h1>
+  <h3>I don't really want you to talk to me, but if you must leave me a message here</h3> 
+  <div class="contact2">
+    <form>
+      <div class="form-object">
+        <label for="fname">Full Name</label><br/>
+        <input type="text" id="fname" name="fullname" placeholder="Your name.." style="max-width: 400px; width: 150%;"><br/>
+      </div>
+      <div class="form-object">
+        <label for="lname">Email</label><br/>
+        <input type="email" id="email" placeholder="Your email.." style="max-width: 400px; width: 150%;"><br/>
+      </div>
+      <div class="form-object">
+        <label for="subject">Subject</label><br/>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; max-width: 400px; width: 150%;" ></textarea><br/>
+      </div>
+      <div class="form-object">
+        <label for="subject">Message</label><br/>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px; max-width: 400px; width: 150%;"></textarea><br/>
+       </div> 
+       <div class="form-object">
+        <label for="Emoji">Choose Emoji yuu want to add:</label>
+        <select id="Emoji" name="Emoji">
+          <option value="😄">😄</option>
+          <option value="😇">😇</option>
+          <option value="🥰">🥰</option>
+          <option value="🤩">🤩</option>
+          <option value="😭">😭</option>
+          <option value="➕">➕</option>
+        </select>
+      </div>
+      </br>
+      <input type="submit" value="Send" onclick="submitForm()">
+  
+    </form>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  </section>
+  
+  <script type="text/javascript">
+   function submitForm() {
+     let subject = document.getElementById("subject");
+     let fullmessage = document.getElementById("message").value 
+     + '\n\n Thanks : ' + document.getElementById("fname").value+' '+document.getElementById("Emoji").value
+     + '\n my Email: ' + document.getElementById("email").value;
+     window.open('mailto:oranbe@post.bgu.ac.il?subject='+ encodeURIComponent(subject.value) +'&body='+ encodeURIComponent(fullmessage));
+   }
+  </script>
 
 <script type="text/javascript">
 $(function(){
