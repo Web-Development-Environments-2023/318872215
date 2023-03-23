@@ -58,6 +58,21 @@ h3{
 	font-size: 25px;
 	
 }
+h4{
+	color: rgb(42, 22, 22);
+	text-align: right;
+	font-weight: bold;
+
+	font-size: 25px;
+	
+}
+h5{
+	color: rgb(42, 22, 22);
+	text-align: right;
+
+	font-size: 25px;
+	
+}
 .photo{
 	align-items: center;
 	/* border: 20px solid rgb(40, 47, 75); */
